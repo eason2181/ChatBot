@@ -6,24 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/chatbot.cpp
-iostream
--
-random
--
-algorithm
--
-ctime
--
-chatlogic.h
-/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/chatlogic.h
-graphnode.h
-/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/graphnode.h
-graphedge.h
-/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/graphedge.h
-chatbot.h
-/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/chatbot.h
-
 /Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/chatbot.h
 wx/bitmap.h
 -
@@ -70,24 +52,10 @@ chatgui.h
 memory
 -
 
-/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/graphedge.cpp
-graphnode.h
-/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/graphnode.h
-graphedge.h
-/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/graphedge.h
-
 /Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/graphedge.h
 vector
 -
 string
--
-
-/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/graphnode.cpp
-graphedge.h
-/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/graphedge.h
-graphnode.h
-/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/graphnode.h
-iostream
 -
 
 /Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/graphnode.h

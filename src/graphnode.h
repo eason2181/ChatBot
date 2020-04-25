@@ -47,13 +47,14 @@ public:
     void AddToken(std::string token); // add answers to list
     void AddEdgeToParentNode(GraphEdge *edge);
     void AddEdgeToChildNode(GraphEdge *edge);
-
+    void AddEdgeToChildNode(std::unique_ptr<GraphEdge> edge);
     //// STUDENT CODE
     ////
 
     void MoveChatbotHere(ChatBot *chatbot);
     void MoveChatbotHere(std::unique_ptr<ChatBot> chatbot);
     void MoveChatbotHere(ChatBot chatbot);
+    
     ////
     //// EOF STUDENT CODE
 

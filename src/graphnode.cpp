@@ -34,6 +34,13 @@ void GraphNode::AddEdgeToChildNode(GraphEdge *edge)
     _childEdges.emplace_back(std::move( std::unique_ptr<GraphEdge>(edge) ));
     edge = nullptr;
 }
+void GraphNode::AddEdgeToChildNode(std::unique_ptr<GraphEdge> edge)
+{
+    //task4 change 2
+    
+    _childEdges.emplace_back(std::move( edge ));
+    //edge = nullptr;
+}
 
 //// STUDENT CODE
 ////

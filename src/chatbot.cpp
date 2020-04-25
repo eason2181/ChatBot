@@ -52,8 +52,7 @@ ChatBot& ChatBot::operator=(const ChatBot& source)
     
     // deep copy
     delete _image; // avatar image
-    _image = new wxBitmap();
-    _image = source._image;
+    _image = new wxBitmap(*source._image);
     
     //shallow copy because chatbot does not have ownership of nodes
     delete _currentNode;
@@ -99,8 +98,7 @@ ChatBot& ChatBot::operator=(ChatBot&& source){
 {
     std::cout << "Constructor: COPYING content of instance " << &source << " to instance " << this << std::endl;
 
-    _image = new wxBitmap();
-    _image = source._image;
+    _image = new wxBitmap(*source._image);
     
     _currentNode = source._currentNode;
     
@@ -116,7 +114,7 @@ ChatBot& ChatBot::operator=(ChatBot&& source){
 {
     std::cout << "Constructor: Moving content of instance " << &source << " to instance " << this << std::endl;
     
-    _image = new wxBitmap();
+    //_image = new wxBitmap();
     _image = source._image;
     source._image = nullptr;
     
