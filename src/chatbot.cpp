@@ -42,8 +42,7 @@ ChatBot::~ChatBot()
     }
 }
 
-//// STUDENT CODE
-////
+
 //copy assignment operator
 ChatBot& ChatBot::operator=(const ChatBot& source)
 {
@@ -131,8 +130,6 @@ ChatBot& ChatBot::operator=(ChatBot&& source){
         
 }
 
-////
-//// EOF STUDENT CODE
 
 void ChatBot::ReceiveMessageFromUser(std::string message)
 {

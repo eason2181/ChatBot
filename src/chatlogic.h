@@ -14,17 +14,11 @@ class GraphNode;
 class ChatLogic
 {
 private:
-    //// STUDENT CODE
-    ////
-
     // data handles (owned)
     //std::vector<GraphNode *> _nodes;
-    // task3 change 1
+
     std::vector< std::unique_ptr<GraphNode> > _nodes;
     std::vector<GraphEdge *> _edges;
-    ////
-    //// EOF STUDENT CODE
-
     // data handles (not owned)
     GraphNode *_currentNode;
     ChatBot *_chatBot;

@@ -8,13 +8,6 @@ GraphNode::GraphNode(int id)
 
 GraphNode::~GraphNode()
 {
-    //// STUDENT CODE
-    ////
-
-    //delete _chatBot;
-
-    ////
-    //// EOF STUDENT CODE
 }
 
 void GraphNode::AddToken(std::string token)
@@ -29,21 +22,17 @@ void GraphNode::AddEdgeToParentNode(GraphEdge *edge)
 
 void GraphNode::AddEdgeToChildNode(GraphEdge *edge)
 {
-    //task4 change 2
-    
+   
     _childEdges.emplace_back(std::move( std::unique_ptr<GraphEdge>(edge) ));
     edge = nullptr;
 }
 void GraphNode::AddEdgeToChildNode(std::unique_ptr<GraphEdge> edge)
 {
-    //task4 change 2
     
     _childEdges.emplace_back(std::move( edge ));
     //edge = nullptr;
 }
 
-//// STUDENT CODE
-////
 void GraphNode::MoveChatbotHere(ChatBot *chatbot)
 {
     //_chatBot = chatbot;//shallow copy causing crush
@@ -70,16 +59,8 @@ void GraphNode::MoveChatbotToNewNode(GraphNode *newNode)
     
 }
 
-////
-//// EOF STUDENT CODE
 
 GraphEdge *GraphNode::GetChildEdgeAtIndex(int index)
 {
-    //// STUDENT CODE
-    ////
-
     return _childEdges[index].get();
-
-    ////
-    //// EOF STUDENT CODE
 }
