@@ -23,7 +23,7 @@ The ChatBot code creates a dialogue where users can ask questions about some asp
 ## Basic Build Instructions
 
 1. Clone this repo.
-2. Make a build directory in the top level directory: `mkdir build && cd build`
+2. navigate to build folder: cd `build`
 3. Compile: `cmake .. && make`
 4. Run it: `./membot`.
 
