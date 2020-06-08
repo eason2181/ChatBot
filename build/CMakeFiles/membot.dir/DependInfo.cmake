@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/chatbot.cpp" "/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/build/CMakeFiles/membot.dir/src/chatbot.cpp.o"
-  "/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/chatgui.cpp" "/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/build/CMakeFiles/membot.dir/src/chatgui.cpp.o"
-  "/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/chatlogic.cpp" "/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/build/CMakeFiles/membot.dir/src/chatlogic.cpp.o"
-  "/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/graphedge.cpp" "/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/build/CMakeFiles/membot.dir/src/graphedge.cpp.o"
-  "/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/src/graphnode.cpp" "/Users/easonzhang/Documents/udacity Cpp ND/CppND-Memory-Management-Chatbot-master/build/CMakeFiles/membot.dir/src/graphnode.cpp.o"
+  "/Users/easonzhang/Documents/udacity Cpp ND/ChatBot/src/chatbot.cpp" "/Users/easonzhang/Documents/udacity Cpp ND/ChatBot/build/CMakeFiles/membot.dir/src/chatbot.cpp.o"
+  "/Users/easonzhang/Documents/udacity Cpp ND/ChatBot/src/chatgui.cpp" "/Users/easonzhang/Documents/udacity Cpp ND/ChatBot/build/CMakeFiles/membot.dir/src/chatgui.cpp.o"
+  "/Users/easonzhang/Documents/udacity Cpp ND/ChatBot/src/chatlogic.cpp" "/Users/easonzhang/Documents/udacity Cpp ND/ChatBot/build/CMakeFiles/membot.dir/src/chatlogic.cpp.o"
+  "/Users/easonzhang/Documents/udacity Cpp ND/ChatBot/src/graphedge.cpp" "/Users/easonzhang/Documents/udacity Cpp ND/ChatBot/build/CMakeFiles/membot.dir/src/graphedge.cpp.o"
+  "/Users/easonzhang/Documents/udacity Cpp ND/ChatBot/src/graphnode.cpp" "/Users/easonzhang/Documents/udacity Cpp ND/ChatBot/build/CMakeFiles/membot.dir/src/graphnode.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
